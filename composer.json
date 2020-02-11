@@ -1,0 +1,23 @@
+{
+    "name": "engelcss/text-finder",
+    "description": "A simple text finder composer package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vadim Goncharov",
+            "email": "engel.css@inbox.ru",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.2",
+        "symfony/yaml": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "TextFinder\\": "src/TextFinder/"
+        }
+    }
+}

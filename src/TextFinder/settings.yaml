@@ -1,0 +1,6 @@
+# File configuration
+- file:
+    allowed_mime_types:
+      - text/plain
+      - text/html
+    max_filesize: 10 MB
